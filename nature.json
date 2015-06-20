@@ -4,6 +4,34 @@
     "title": {
       "selector": "//meta[@name='DC.title']",
       "attribute": "content"
+    },
+    "authors": {
+      "selector": "//meta[@name='DC.creator']",
+      "attribute": "content"
+    },
+    "date": {
+      "selector": "//meta[@name='prism.publicationDate']",
+      "attribute": "content"
+    },
+    "volume": {
+      "selector": "//meta[@name='prism.volume']",
+      "attribute": "content"
+    },
+    "issue": {
+      "selector": "//meta[@name='prism.issue']",
+      "attribute": "content"
+    },
+    "section": {
+      "selector": "//meta[@name='prism.section']",
+      "attribute": "content"
+    },
+    "doi": {
+      "selector": "//meta[@name='DC.identifier']",
+      "attribute": "content"
+    },
+    "doi": {
+      "selector": "//meta[@name='DC.identifier']",
+      "attribute": "content"
     }
   }
 }
