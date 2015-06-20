@@ -1,0 +1,5 @@
+quickscrape \
+  --url http://www.nature.com/nature/journal/vaop/ncurrent/full/nature14508.html \
+  --scraper nature.json \
+  --output test \
+  --outformat bibjson
