@@ -29,9 +29,19 @@
       "selector": "//meta[@name='DC.identifier']",
       "attribute": "content"
     },
-    "doi": {
-      "selector": "//meta[@name='DC.identifier']",
-      "attribute": "content"
+      "fulltext_html": {
+      "selector": "//article",
+      "attribute": "html",
+      "download": {
+        "rename": "fulltext.html"
+      }
+    },
+      "fulltext_pdf": {
+      "selector": "//li[@class='download-option articlepdf']/a",
+      "attribute": "href",
+      "download": {
+        "rename": "fulltext.pdf"
+      }
     }
   }
 }
