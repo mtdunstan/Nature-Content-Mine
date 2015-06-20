@@ -4,6 +4,17 @@
     "title": {
       "selector": "//meta[@name='DC.title']",
       "attribute": "content"
+    },
+    "fulltext_pdf": {
+      "selector": "//li[@class='download-pdf']",
+      "attribute": "href",
+      "id": "download-pdf"
+      "download": true
+    },
+    "fulltext_html": {
+      "selector": "//article",
+      "attribute": "html",
+      "download": true
     }
   }
 }
