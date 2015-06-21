@@ -1,0 +1,31 @@
+{
+  "title": "The role of quasi-plasticity in the extreme contact damage tolerance of the stomatopod dactyl club",
+  "link": [
+    {
+      "type": "fulltext_html",
+      "url": "http://www.nature.com/nmat/journal/vaop/ncurrent/full/nmat4309.html"
+    },
+    {
+      "type": "fulltext_pdf",
+      "url": "http://www.nature.com/nmat/journal/vaop/ncurrent/pdf/nmat4309.pdf"
+    }
+  ],
+  "journal": {
+    "volume": "",
+    "issue": ""
+  },
+  "sections": {},
+  "date": {},
+  "identifier": [
+    {
+      "type": "doi",
+      "id": "doi:10.1038/nmat4309"
+    }
+  ],
+  "log": [
+    {
+      "date": "2015-06-21T11:56:42+01:00",
+      "event": "scraped by quickscrape v0.4.5"
+    }
+  ]
+}

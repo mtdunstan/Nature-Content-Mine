@@ -59,5 +59,23 @@
     "value": [
       "http://www.nature.com/nature/journal/vaop/ncurrent/pdf/nature14508.pdf"
     ]
+  },
+  "keywords": {
+    "value": []
+  },
+  "supplementary_material_movie": {
+    "value": []
+  },
+  "supplementary_material_pdf": {
+    "value": [
+      "http://www.nature.com/nature/journal/vaop/ncurrent/extref/nature14508-s1.pdf"
+    ]
+  },
+  "supplementary_material_excel": {
+    "value": [
+      "http://www.nature.com/nature/journal/vaop/ncurrent/extref/nature14508-s2.xlsx",
+      "http://www.nature.com/nature/journal/vaop/ncurrent/extref/nature14508-s3.xlsx",
+      "http://www.nature.com/nature/journal/vaop/ncurrent/extref/nature14508-s4.xlsx"
+    ]
   }
 }

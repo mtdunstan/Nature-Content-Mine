@@ -1,5 +1,5 @@
 {
-  "url": "www\\.nature\\.com/nature/journal/.+/.+/abs/*",
+  "url": "www\\.nature\\.com/.+/journal/.+/.+/abs/*",
   "elements": {
     "title": {
       "selector": "//meta[@name='DC.title']",
@@ -56,8 +56,68 @@
       "attribute": "href",
       "download": true
     },
-    "supplementary_material_excel": {
-      "selector": "//div[@class='box supp-info']//a[contains(@href, '.xlsx')]",
+    "supplementary_material_ms-excel": {
+      "selector": "//div[@class='box supp-info']//a[contains(@href, '.xls')]",
+      "attribute": "href",
+      "download": true
+    },
+    "supplementary_material_ms-word": {
+      "selector": "//div[@class='box supp-info']//a[contains(@href, '.doc')]",
+      "attribute": "href",
+      "download": true
+    },
+    "supplementary_material_ascii": {
+      "selector": "//div[@class='box supp-info']//a[contains(@href, '.txt')]",
+      "attribute": "href",
+      "download": true
+    },
+    "supplementary_material_richtext": {
+      "selector": "//div[@class='box supp-info']//a[contains(@href, '.rtf')]",
+      "attribute": "href",
+      "download": true
+    },
+    "supplementary_material_wordperfect": {
+      "selector": "//div[@class='box supp-info']//a[contains(@href, '.wpd')]",
+      "attribute": "href",
+      "download": true
+    },
+    "supplementary_material_postscript": {
+      "selector": "//div[@class='box supp-info']//a[contains(@href, '.ps')]",
+      "attribute": "href",
+      "download": true
+    },
+    "supplementary_material_encapsulated-postscript": {
+      "selector": "//div[@class='box supp-info']//a[contains(@href, '.eps')]",
+      "attribute": "href",
+      "download": true
+    },
+    "supplementary_material_html": {
+      "selector": "//div[@class='box supp-info']//a[contains(@href, '.htm')]",
+      "attribute": "href",
+      "download": true
+    },
+    "supplementary_material_audio": {
+      "selector": "//div[@class='box supp-info']//a[contains(@href, '.wav')]",
+      "attribute": "href",
+      "download": true
+    },
+    "supplementary_material_mpg": {
+      "selector": "//div[@class='box supp-info']//a[contains(@href, '.mp')]",
+      "attribute": "href",
+      "download": true
+    },
+    "supplementary_material_sbml": {
+      "selector": "//div[@class='box supp-info']//a[contains(@href, '.sbml')]",
+      "attribute": "href",
+      "download": true
+    },
+    "supplementary_material_xml": {
+      "selector": "//div[@class='box supp-info']//a[contains(@href, '.xml')]",
+      "attribute": "href",
+      "download": true
+    },
+    "supplementary_material_owl": {
+      "selector": "//div[@class='box supp-info']//a[contains(@href, '.owl')]",
       "attribute": "href",
       "download": true
     }

@@ -1,0 +1,31 @@
+{
+  "title": "In situ atomic-scale observation of twinning-dominated deformation in nanoscale body-centred cubic tungsten",
+  "link": [
+    {
+      "type": "fulltext_html",
+      "url": "http://www.nature.com/nmat/journal/v14/n6/full/nmat4228.html"
+    },
+    {
+      "type": "fulltext_pdf",
+      "url": "http://www.nature.com/nmat/journal/v14/n6/pdf/nmat4228.pdf"
+    }
+  ],
+  "journal": {
+    "volume": "14",
+    "issue": "6"
+  },
+  "sections": {},
+  "date": {},
+  "identifier": [
+    {
+      "type": "doi",
+      "id": "doi:10.1038/nmat4228"
+    }
+  ],
+  "log": [
+    {
+      "date": "2015-06-21T12:00:42+01:00",
+      "event": "scraped by quickscrape v0.4.5"
+    }
+  ]
+}
