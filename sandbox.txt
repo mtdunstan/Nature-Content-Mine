@@ -5,6 +5,14 @@ quickscrape \
   --outformat bibjson
 
 
+quickscrape \
+  --url http://www.nature.com/nature/journal/v522/n7556/abs/nature14445.html \
+  --scraper nature.json \
+  --output test \
+  --outformat bibjson
+
+
+
 New Paper
 http://www.nature.com/nature/journal/v522/n7556/abs/nature14445.html
 
