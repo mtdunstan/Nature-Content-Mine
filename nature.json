@@ -1,5 +1,5 @@
 {
-  "url": "www\\.nature\\.com/nature/journal/vaop/ncurrent/abs/*",
+  "url": "www\\.nature\\.com/nature/journal/v*/n*/abs/*",
   "elements": {
     "title": {
       "selector": "//meta[@name='DC.title']",

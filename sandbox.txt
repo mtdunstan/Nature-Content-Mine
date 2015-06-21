@@ -4,6 +4,10 @@ quickscrape \
   --output test \
   --outformat bibjson
 
+
+New Paper
+http://www.nature.com/nature/journal/v522/n7556/abs/nature14445.html
+
     "fulltext_pdf": {
       "selector": "//li[@class='download-pdf']",
       "attribute": "href",
