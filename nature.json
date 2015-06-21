@@ -44,7 +44,22 @@
       }
     },
     "keywords": {
-      "selector": "//div[@class='article-keywords inline-list cleared']//a|text()[normalize-space()]"
+      "selector": "//div[@class='article-keywords inline-list cleared']//a"
+    },
+    "supplementary_material_movie": {
+      "selector": "//div[@class='box supp-info']//a[contains(@href, '.mov')]",
+      "attribute": "href",
+      "download": true
+    },
+    "supplementary_material_pdf": {
+      "selector": "//div[@class='box supp-info']//a[contains(@href, '.pdf')]",
+      "attribute": "href",
+      "download": true
+    },
+    "supplementary_material_excel": {
+      "selector": "//div[@class='box supp-info']//a[contains(@href, '.xlsx')]",
+      "attribute": "href",
+      "download": true
     }
   }
 }

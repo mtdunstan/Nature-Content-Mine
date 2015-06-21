@@ -55,5 +55,16 @@
       "Short-term memory",
       "Cortex"
     ]
+  },
+  "supplementary_material_movie": {
+    "value": [
+      "http://www.nature.com/nature/journal/v522/n7556/extref/nature14445-sv1.mov"
+    ]
+  },
+  "supplementary_material_pdf": {
+    "value": []
+  },
+  "supplementary_material_excel": {
+    "value": []
   }
 }
