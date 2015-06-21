@@ -12,3 +12,13 @@ volume
 issue
 figures
 captions
+
+New work
+
+Matt:
+Keywords
+References
+
+Charles:
+Figures
+
