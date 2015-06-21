@@ -2,6 +2,7 @@ quickscrape \
   --url http://www.nature.com/nature/journal/vaop/ncurrent/abs/nature14508.html \
   --scraper nature.json \
   --output test \
+  --loglevel verbose \
   --outformat bibjson
 
 
@@ -9,9 +10,33 @@ quickscrape \
   --url http://www.nature.com/nature/journal/v522/n7556/abs/nature14445.html \
   --scraper nature.json \
   --output test \
+  --loglevel verbose \
   --outformat bibjson
 
+"replace(figure_link, 'carousel', 'images')",
 
+"fulltext_pdf_link": {
+      "selector": "//meta[@name='citation_abstract_pdf_url']",
+      "attribute": "content"
+    },
+    "fulltext_pdf": {
+      "selector": "//a[text()='click here']",
+      "attribute": "href",
+      "follow": "fulltext_pdf_link",
+      "download": {
+        "rename": "fulltext.pdf"
+      }
+    },
+
+
+    "figure_link": {
+      "substring-before(//img[@class='fig carousel-item']/@src, 'carousel')",
+      "figure": {
+      }
+    },
+
+
+"concat(substring-before(//img[@class='fig carousel-item'], 'carousel'), 'images', substring-after(//img[@class='fig carousel-item'], 'carousel'))"
 
 New Paper
 http://www.nature.com/nature/journal/v522/n7556/abs/nature14445.html
@@ -39,3 +64,6 @@ http://www.nature.com/nature/journal/v522/n7556/abs/nature14445.html
       "download": {
         "rename": "fulltext.pdf"
       }
+
+
+//img[@class='fig']
