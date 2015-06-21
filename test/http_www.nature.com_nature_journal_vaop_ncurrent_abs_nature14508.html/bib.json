@@ -1,0 +1,31 @@
+{
+  "title": "HIF-driven SF3B1 induces KHK-C to enforce fructolysis and heart disease",
+  "link": [
+    {
+      "type": "fulltext_html",
+      "url": "http://www.nature.com/nature/journal/vaop/ncurrent/full/nature14508.html"
+    },
+    {
+      "type": "fulltext_pdf",
+      "url": "http://www.nature.com/nature/journal/vaop/ncurrent/pdf/nature14508.pdf"
+    }
+  ],
+  "journal": {
+    "volume": "",
+    "issue": ""
+  },
+  "sections": {},
+  "date": {},
+  "identifier": [
+    {
+      "type": "doi",
+      "id": "doi:10.1038/nature14508"
+    }
+  ],
+  "log": [
+    {
+      "date": "2015-06-21T09:27:21+01:00",
+      "event": "scraped by quickscrape v0.4.5"
+    }
+  ]
+}

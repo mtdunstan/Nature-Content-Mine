@@ -1,5 +1,29 @@
 quickscrape \
-  --url http://www.nature.com/nature/journal/vaop/ncurrent/full/nature14508.html \
+  --url http://www.nature.com/nature/journal/vaop/ncurrent/abs/nature14508.html \
   --scraper nature.json \
   --output test \
   --outformat bibjson
+
+    "fulltext_pdf": {
+      "selector": "//li[@class='download-pdf']",
+      "attribute": "href",
+      "id": "download-pdf",
+      "download": true
+    },
+
+
+      "fulltext_html": {
+      "selector": "concat('doi.org', //meta[@name='DC.identifier'])",
+      "attribute": "href",
+      "download": {
+        "rename": "fulltext.html"
+      }
+    },
+
+    },
+      "fulltext_pdf": {
+      "selector": "//li[@class='download-option articlepdf']/a",
+      "attribute": "href",
+      "download": {
+        "rename": "fulltext.pdf"
+      }
